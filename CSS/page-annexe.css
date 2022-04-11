@@ -1,0 +1,71 @@
+article>h2{
+   background-color: #FFF ;
+  margin: 20px 0px 0px 0px;
+  padding: 2px ;
+  text-align: left;
+   }
+
+article>nav{
+  border: 2px solid  ;
+  text-align:  left;
+  font-size: 15px;
+  width: 13%;
+  background-color: lightblue;
+}
+
+ol>li>a[href]{
+  color: black;
+}
+
+article.caracs p{
+  background-color: #FFE4C4;
+}
+
+table{
+  text-align: center; 
+
+}
+ 
+table th{
+  border: 3px solid ;
+  text-align: center;
+  background-color: #FFE4C4;
+}
+
+table caption{
+  font: small-caps bold 17px sans-serif;
+}
+
+figure{
+  margin: 10px
+}
+
+
+figure , figcaption{
+  width:30%;
+  
+}
+
+figure img{
+  width: 90%
+}
+
+@media screen and (max-width: 800px){
+  img{
+    display: none;
+  }
+  
+  img.right{
+    display: none;
+  }
+  p{
+    font-size: 17px;
+  }
+  
+  figcaption{
+    display: none;
+  }
+  article>nav {
+    display: none;
+  }
+}

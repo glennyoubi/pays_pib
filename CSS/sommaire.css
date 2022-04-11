@@ -1,0 +1,24 @@
+body{
+  font-family: Times, Times New Roman, serif; 
+}
+
+div.pays{
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 800px){
+  img{
+    display: none;
+  }
+  
+  img.right{
+    display: none;
+  }
+  p{
+    font-size: 17px;
+  }
+}
+
